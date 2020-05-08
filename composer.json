@@ -1,0 +1,20 @@
+{
+    "name": "aiyongli/ecopro-lumen-trim",
+    "description": "ecopro php lumen input trim",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liaiyong",
+            "email": "aiyong.li@ecoprobio.cn"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ecopro\\Trim\\": "src/"
+        }
+    },
+    "autoload-dev": {
+    },
+    "require": {
+    }
+}
