@@ -22,7 +22,7 @@ class Trim
      * @param Request $request
      * @return void
      */
-    private function trimInput(Request $request)
+    protected function trimInput(Request $request)
     {
         $all = $request->all();
         $news = [];
@@ -38,7 +38,7 @@ class Trim
      * @param mixed $value
      * @return mixed
      */
-    public function trimValue($value)
+    protected function trimValue($value)
     {
         if(is_array($value)) {
             $tmp = [];
@@ -58,7 +58,7 @@ class Trim
      * @param string $value
      * @return string
      */
-    public function trim($value)
+    protected function trim($value)
     {
         return trim($value);
     }
